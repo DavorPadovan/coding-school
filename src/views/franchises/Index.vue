@@ -45,7 +45,7 @@ export default {
       }, {
         value: 'active', text: 'Active'
       }, {
-        value: 'action', text: 'Action'
+        value: 'action', text: 'Actions', sortable: false, filterable: false, align: 'center'
       }]
     },
     franchises () {

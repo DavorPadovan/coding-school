@@ -9,36 +9,60 @@ export default new Vuex.Store({
     franchises: [
       {
         id: '1',
-        title: 'SmartNinja Slovenia',
-        website: 'https://www.smartninja.si',
-        street: 'Ulica Slavka Gruma 100',
+        title: 'CodingSchool Slovenia',
+        website: 'https://www.codingschool.si',
+        street: 'Ljubljanska cesta 100',
         zip: '8000',
         city: 'Novo mesto',
         active: true
       }, {
         id: '2',
-        title: 'SmartNinja Austria',
-        website: 'https://www.smartninja.at',
-        street: 'Ulica Slavka Gruma 100',
+        title: 'CodingSchool Austria',
+        website: 'https://www.codingschool.at',
+        street: 'Strasse 100',
         zip: '1000',
         city: 'Wien',
         active: true
       }, {
         id: '3',
-        title: 'SmartNinja Germany',
-        website: 'https://www.smartninja.at',
-        street: 'Ulica Slavka Gruma 100',
+        title: 'CodingSchool Germany',
+        website: 'https://www.codingschool.de',
+        street: 'Strasse 100',
         zip: '1000',
-        city: 'Wien',
+        city: 'Berlin',
         active: true
       }, {
         id: '4',
-        title: 'SmartNinja Portugal',
-        website: 'https://www.smartninja.at',
-        street: 'Ulica Slavka Gruma 100',
+        title: 'CodingSchool Portugal',
+        website: 'https://www.codingschool.pt',
+        street: 'Avenida 100',
         zip: '1000',
-        city: 'Wien',
+        city: 'Lisbon',
         active: false
+      }, {
+        id: '5',
+        title: 'CodingSchool Italy',
+        website: 'https://www.codingschool.it',
+        street: 'Strada 100',
+        zip: '1000',
+        city: 'Milan',
+        active: false
+      }, {
+        id: '6',
+        title: 'CodingSchool Croatia',
+        website: 'https://www.codingschool.hr',
+        street: 'Ulica 100',
+        zip: '1000',
+        city: 'Zagreb',
+        active: true
+      }, {
+        id: '7',
+        title: 'CodingSchool Serbia',
+        website: 'https://www.codingschool.rs',
+        street: 'Ulica 100',
+        zip: '1000',
+        city: 'Beograd',
+        active: true
       }
     ]
   },
