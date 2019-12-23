@@ -20,5 +20,8 @@ npm run build
 npm run lint
 ```
 
+### Demo
+[davorpadovan.github.io/coding-school/](https://davorpadovan.github.io/coding-school/).
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
