@@ -17,7 +17,7 @@ const routes = [
     children: [{
       path: ':id',
       name: 'franchise-details',
-      component: () => import(/* webpackChunkName: "franchise-edit" */'../views/franchises/Edit.vue')
+      component: () => import(/* webpackChunkName: "franchise-details" */'../views/franchises/Details.vue')
     }, {
       path: ':id/edit',
       name: 'franchise-edit',

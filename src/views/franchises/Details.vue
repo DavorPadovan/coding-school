@@ -3,19 +3,7 @@
     <v-navigation-drawer v-model="drawer" app temporary right>
       <v-container fluid>
         <h1 class="headline my-2">{{ franchise.title }}</h1>
-
-        <v-card tile>
-          <v-card-text>
-            <v-form>
-              <v-text-field v-model="franchise.title" label="Franchise title" required></v-text-field>
-              <v-text-field v-model="franchise.street" label="Street" required></v-text-field>
-              <v-text-field v-model="franchise.city" label="City" required></v-text-field>
-              <v-text-field v-model="franchise.zip" label="ZIP code" required></v-text-field>
-              <v-text-field v-model="franchise.website" label="Website" required></v-text-field>
-              <v-switch v-model="franchise.active" label="Active"></v-switch>
-            </v-form>
-          </v-card-text>
-        </v-card>
+        <p><a :href="franchise.website" target="_blank">{{ franchise.website }}</a></p>
       </v-container>
     </v-navigation-drawer>
   </div>
